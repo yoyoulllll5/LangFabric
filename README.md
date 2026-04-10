@@ -20,10 +20,10 @@ LangFabric provides:
 The dataset contains **6,384 paired samples**, covering **16 fabric texture categories** and **12 defect categories**.  
 Among them, **5,794** are normal samples and **590** are defective samples.
 
-<!-- Figure 2 -->
-![Figure 2](docs/figures/image.png)
+<!-- Figure 1 -->
+![Figure 1](docs/figures/image.png)
 
-*Figure 2. Examples of fabric images, pixel-level segmentation masks, and corresponding textual descriptions in the LangFabric dataset.*
+*Figure 1. Examples of fabric images, pixel-level segmentation masks, and corresponding textual descriptions in the LangFabric dataset.*
 
 ---
 
@@ -53,10 +53,10 @@ LangFabric supports:
 
 LangFabric includes **16 distinct fabric texture categories**, covering a wide range of structural weaving patterns and visual appearances. These textures range from regular grid-like patterns to fine-grained plain weaves and more complex repetitive motifs.
 
-<!-- Figure 7 -->
-![Figure 7](docs/figures/texture_samples.png)
+<!-- Figure 2 -->
+![Figure 2](docs/figures/texture_samples.png)
 
-*Figure 7. Examples of fabrics with different texture types from the LangFabric dataset.*
+*Figure 2. Examples of fabrics with different texture types from the LangFabric dataset.*
 
 ---
 
@@ -82,10 +82,10 @@ These defect categories include both:
 - **Structural anomalies**, which alter the woven structure
 - **Non-structural anomalies**, which mainly appear as surface contamination or irregularities
 
-<!-- Figure 6 -->
-![Figure 6](docs/figures/defect_sample.png)
+<!-- Figure 3 -->
+![Figure 3](docs/figures/defect_sample.png)
 
-*Figure 6. Defective fabric images and their corresponding ground-truth segmentation masks for the 12 defect categories.*
+*Figure 3. Defective fabric images and their corresponding ground-truth segmentation masks for the 12 defect categories.*
 
 ---
 
@@ -172,10 +172,10 @@ where:
 LangFabric reflects realistic industrial production conditions, where normal samples substantially outnumber defective samples.  
 The dataset also records distributions over defect type, defect position, defect size, structural vs. non-structural defects, and single-region vs. multiple-region defects.
 
-<!-- Figure 8 -->
-![Figure 8](docs/figures/distribute.png)
+<!-- Figure 4 -->
+![Figure 4](docs/figures/distribute.png)
 
-*Figure 8. Statistical distributions of the LangFabric dataset.*
+*Figure 4. Statistical distributions of the LangFabric dataset.*
 
 ---
 
@@ -185,15 +185,15 @@ The dataset was collected from real textile manufacturing environments.
 Fabric images were captured inline during production using a camera mounted above the moving fabric surface.  
 Images were resized to a uniform resolution, and manual annotation was performed for both textual descriptions and pixel-level segmentation masks.
 
-<!-- Figure 3 -->
-![Figure 3](docs/figures/pipeline.png)
+<!-- Figure 5 -->
+![Figure 5](docs/figures/pipeline.png)
 
-*Figure 3. Construction pipeline of the LangFabric dataset.*
+*Figure 5. Construction pipeline of the LangFabric dataset.*
 
-<!-- Figure 4 -->
-![Figure 4](docs/figures/mahcine-to-samples.png)
+<!-- Figure 6 -->
+![Figure 6](docs/figures/mahcine-to-samples.png)
 
-*Figure 4. Illustration of the production equipment and representative fabric images captured during the manufacturing process.*
+*Figure 6. Illustration of the production equipment and representative fabric images captured during the manufacturing process.*
 
 ---
 
